@@ -4,7 +4,7 @@ void main() {
   int i, batas, jumlah;
 
   printf("Menjumlahkan 1 + 2 + 3 + ...\n");
-  printf("Sampai berapa?\n");
+  printf("Sampai berapa: ");
   scanf("%d", &batas);
   
   jumlah = 0;
@@ -13,5 +13,5 @@ void main() {
     jumlah = jumlah + i;
     i = i + 1;
    }
-   printf("\n 1+2+3+...+%d=%d", batas, jumlah);
+   printf("1 + 2 + 3 + ... + %d = %d", batas, jumlah);
 }
