@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-  int cacah,i,n;
+  int cacah, i, n;
   float jumlah, rata;
   float x[100];
     
