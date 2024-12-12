@@ -13,7 +13,7 @@ void main() {
   scanf("%d", &n);
   
   for(i = 0; i < n; i++) {
-    printf("Data ke -%d:", i + 1);
+    printf("Data ke-%d: ", i + 1);
     scanf("%f", &x[i]);
     if (x[i] > 0) {
       jumlah = jumlah + x[i];
